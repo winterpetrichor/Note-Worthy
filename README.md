@@ -30,16 +30,29 @@ Otherwise, you can download the entire dist folder and run the .exe
 
 ### Dependencies
 from PyQt6 import QtGui
+
 from PyQt6.QtWidgets import QApplication, QDialog, QPushButton, QVBoxLayout
+
 from PyQt6.QtCore import Qt, QThread, pyqtSignal, QMutex
+
 import sys
+
 import time
+
 import random
+
 import numpy as np
+
 import pyaudio
+
 import pyqtgraph as pg
+
 import pandas as pd
+
 from types import SimpleNamespace
+
 import os.path
+
 from os import path
+
 import csv
